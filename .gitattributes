@@ -1,3 +1,9 @@
-secretfile filter=git-crypt diff=git-crypt
-*.key filter=git-crypt diff=git-crypt
+# Default git-crypt
+# secretfile filter=git-crypt diff=git-crypt
+# *.key filter=git-crypt diff=git-crypt
+
+cp_scripts/** filter=git-crypt diff=git-crypt
+dotssh/** filter=git-crypt diff=git-crypt
+home/** filter=git-crypt diff=git-crypt
+install_scripts/** filter=git-crypt diff=git-crypt
 vscode/** filter=git-crypt diff=git-crypt

@@ -1,25 +1,4 @@
-# Dotfiles
-
-Classic with fries, please!
-
-Jeez, why is it encrypted?! Well, every secret needs to hide `¯\_(ツ)_/¯`
-
-## Encryption technologies
-
-[Git-crypt](https://github.com/AGWA/git-crypt)
-
-Cheat sheet:
-```
-git-crypt init
-git-crypt status
-git-crypt lock
-git-crypt unlock
-```
-
-```
-gpg --list-keys
-gpg --list-secret-keys
-```
+## KIT STARTER FOR MAC
 
 ## VSCode stuff
 
