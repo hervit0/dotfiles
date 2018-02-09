@@ -23,22 +23,21 @@ gpg --list-secret-keys
 
 ## VSCode stuff
 
-
-Copy extensions from local machine to this git repo (`vscode_extensions.json`):
+Copy local config to this repo:
 ```
-./cp_vscode_extensions
-```
-
-Install extensions from this git repo (`vscode_extensions.json`) to local machine
-```
-./run_vscode_extensions
+./vscode/save_local_config
 ```
 
-Useful config files:
+Install extensions from this repo (`vscode/extensions.json`) to local machine
+```
+./vscode/install_extensions
+```
 
-- `keybindings.json`
-- `settings.json`
+## Dotfiles stuff
 
-## Bash stuff
-
-Save `~/.bash_profile`: `./cp_bash_profile_driftrock`.
+Save local config to this repo:
+```
+./save/bash_config
+./save/gitconfig
+./save/vimrc
+```
