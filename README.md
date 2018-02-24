@@ -37,7 +37,7 @@ Install extensions from this repo (`vscode/extensions.json`) to local machine
 
 Save local config to this repo:
 ```
-./save/bash_config
+./save/bash_profile
 ./save/gitconfig
 ./save/vimrc
 ```
