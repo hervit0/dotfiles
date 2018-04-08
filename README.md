@@ -2,7 +2,7 @@
 
 Classic with fries, please!
 
-Jeez, why is it encrypted?! Well, every secret needs to hide `¯\_(ツ)_/¯`
+Jeez, why is it encrypted?! Well, every secret needs to be hidden `¯\_(ツ)_/¯`.
 
 ## Encryption technologies
 
