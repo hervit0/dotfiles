@@ -41,3 +41,7 @@ Save local config to this repo:
 ./save/gitconfig
 ./save/vimrc
 ```
+
+## Install ZSH and Z terminal plugins
+
+[Follow these steps.](https://jilles.me/badassify-your-terminal-and-shell/)
