@@ -8,3 +8,4 @@ install/** filter=git-crypt diff=git-crypt
 iterm/** filter=git-crypt diff=git-crypt
 save/** filter=git-crypt diff=git-crypt
 vscode/** filter=git-crypt diff=git-crypt
+scripts/** filter=git-crypt diff=git-crypt
