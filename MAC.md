@@ -30,6 +30,12 @@ asdf global ruby 2.6.0
 - Java: `openjdk-11.0.1`
 - Scala: `2.12.8`
 
+### NodeJS
+
+Might have a conflict if another version of node, unmanaged by `asdf`, is installed.
+
+This might resolve the conflict: `npm config set scripts-prepend-node-path true` ([source](https://github.com/npm/npm/issues/15398)).
+
 ## Terminal
 
 * Vundle for Vim: `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
