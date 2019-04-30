@@ -91,6 +91,12 @@ sudo apt-get install oracle-java11-set-default
 java --version
 ```
 
+Set up intelliJ:
+```bash
+asdf where java
+```
+E.g. `/Users/h.ah-leung/.asdf/installs/java/openjdk-11.0.1`, then in IntelliJ > Project structure > Platform Settings > SDKs and fill with this path (no need to append any path).
+
 ### Scala
 
 Download the binaries
