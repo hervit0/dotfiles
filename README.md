@@ -109,6 +109,41 @@ export SCALA_HOME="/usr/share/scala"
 export PATH="$PATH:$SCALA_HOME/bin"
 ```
 
+### Spark
+
+```
+brew install hadoop
+brew install zlib
+asdf install python 3.7.3
+asdf global python 3.7.3
+```
+
+Add to `.zshrc` (change py4j and spark veresion if needed):
+```
+# Using custom zlib - python 3 issue
+# For compilers to find zlib you may need to set:
+export LDFLAGS="-L/usr/local/opt/zlib/lib"
+export CPPFLAGS="-I/usr/local/opt/zlib/include"
+export LDFLAGS="${LDFLAGS} -L/usr/local/opt/zlib/lib"
+export CPPFLAGS="${CPPFLAGS} -I/usr/local/opt/zlib/include"
+# For pkg-config to find zlib you may need to set:
+export PKG_CONFIG_PATH="${PKG_CONFIG_PATH} /usr/local/opt/zlib/lib/pkgconfig"
+
+# Spark
+export SPARK_HOME=/Users/h.ah-leung/.asdf/installs/spark/2.4.3
+export PATH=$PATH:$SPARK_HOME/bin
+export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-0.10.7-src.zip:$PYTHONPATH
+export PATH=$SPARK_HOME/python:$PATH
+```
+
+Hadoop issue (OS > High Sierra):
+```
+brew install hadoop
+brew link hadoop
+sudo mkdir /usr/local/sbin
+sudo chown -R `whoami`:admin /usr/local/sbin
+```
+
 ### Z plugin
 
 - https://github.com/rupa/z
